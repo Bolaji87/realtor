@@ -11,9 +11,6 @@ function Header() {
     }
   }
 
-  console.log("Current pathname:", location.pathname);
-  console.log("Match home:", pathMatchRoute("/"));
-
   return (
     <div className="sticky top-0 z-50 border-b bg-white shadow-sm">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-3">
